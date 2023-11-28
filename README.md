@@ -38,15 +38,16 @@ O programa é subdividido em três subprocessos principais: Spider (Aranha), Mod
 Abra o `gmane_run.py` para rodar o programa. Um interface de usuário no shell foi implementada, todas as opções são explicadas abaixo.
 
 **Aplication Manager (Gerenciador da Aplicação)**: é a parte principal do programa, você pode escolher entre Spider, Model, Data Visualization ou Exit/Sair do programa;
-    1. **Spider**: será solicitado quantas mensagens o programa deverá ler e salvar no banco de dados bruto ***spider.sqlite***, para interromper o programa a qualquer momento pressione <CTRL + C> e insira <Y> quando solicitado;
-    2. **Model**: cria ou atualiza automaticamente o banco de dados ***mode_db.sqlite*** a partir do ***spider.sqlite***;
-    3. **Data Visualization**: entra no menu **Visualization Model (Modelo de Visualização)**:
-        1. **Basic**: solicita quantas organizações e remententes para mostrar no shell (deve-se inserir um número inteiro);
-        2. **Word**: solicita quantas palavras mostrar no navegador (inteiro), em seguida cria os dados e pergunta se quer visualiza-los;
-        3. **Line**: solicita quantas organizações e remententes para mostrar no navegador (inteiro), em seguida cria os dados e pergunta se quer visualiza-los;
-        4. **Year**: solicita quantas organizações e remententes para mostrar no navegador (inteiro), em seguida cria os dados e pergunta se quer visualiza-los;
-        5. **All Above (Todos Acima)**: roda todos os subprocessos acima em sequência;
-        9. **Visualize Data (Visualizar Dados)**: entra no menu **Visualization Manager (Gerenciador de Visualização)**, onde você pode escolher dentre todos os modelos de visualização de dados acima para ser mostrado no navegador.
+
+1. **Spider**: será solicitado quantas mensagens o programa deverá ler e salvar no banco de dados bruto ***spider.sqlite***, para interromper o programa a qualquer momento pressione <CTRL + C> e insira <Y> quando solicitado;
+2. **Model**: cria ou atualiza automaticamente o banco de dados ***mode_db.sqlite*** a partir do ***spider.sqlite***;
+3. **Data Visualization**: entra no menu **Visualization Model (Modelo de Visualização)**:
+   1. **Basic**: solicita quantas organizações e remententes para mostrar no shell (deve-se inserir um número inteiro);
+    2. **Word**: solicita quantas palavras mostrar no navegador (inteiro), em seguida cria os dados e pergunta se quer visualiza-los;
+    3. **Line**: solicita quantas organizações e remententes para mostrar no navegador (inteiro), em seguida cria os dados e pergunta se quer visualiza-los;
+    4. **Year**: solicita quantas organizações e remententes para mostrar no navegador (inteiro), em seguida cria os dados e pergunta se quer visualiza-los;
+    5. **All Above (Todos Acima)**: roda todos os subprocessos acima em sequência;
+    9. **Visualize Data (Visualizar Dados)**: entra no menu **Visualization Manager (Gerenciador de Visualização)**, onde você pode escolher dentre todos os modelos de visualização de dados acima para ser mostrado no navegador.
 
 Se for inserido "0" o programa vai para o menu anterior ou sai do programa.
 
