@@ -39,7 +39,7 @@ Abra o `gmane_run.py` para rodar o programa. Um interface de usuário no shell f
 
 **Aplication Manager (Gerenciador da Aplicação)**: é a parte principal do programa, você pode escolher entre Spider, Model, Data Visualization ou Exit/Sair do programa;
 
-1. **Spider**: será solicitado quantas mensagens o programa deverá ler e salvar no banco de dados bruto ***spider.sqlite***, para interromper o programa a qualquer momento pressione <CTRL + C> e insira <Y> quando solicitado;
+1. **Spider**: será solicitado quantas mensagens o programa deverá ler e salvar no banco de dados bruto ***spider.sqlite***, para interromper o programa a qualquer momento pressione \<CTRL + C> e insira \<Y> quando solicitado;
 2. **Model**: cria ou atualiza automaticamente o banco de dados ***mode_db.sqlite*** a partir do ***spider.sqlite***;
 3. **Data Visualization**: entra no menu **Visualization Model (Modelo de Visualização)**:
    1. **Basic**: solicita quantas organizações e remententes para mostrar no shell (deve-se inserir um número inteiro);
@@ -55,7 +55,7 @@ Se for inserido "0" o programa vai para o menu anterior ou sai do programa.
 - Todos os arquivos se subprocesso se encontram na pasta `files`;
 - Todos os arquivos criados serão armazenados na pasta `files` (incluindo bancos de dados e arquivos javascript);
 - Todos os arquivos htm estão na pasta `files`, você pode abri-los manualmente depois de ter criado os arquivos javascript necessários;
-- Depois de cada passo no programa ele irá perguntar se você deseja seguir para a próxima etapa lógica, se sim insira <Y>, se não insira <N> para voltar ao menu;
+- Depois de cada passo no programa ele irá perguntar se você deseja seguir para a próxima etapa lógica, se sim insira \<Y>, se não insira \<N> para voltar ao menu;
 - Todos os creditos vão para [dr-chuck](https://dr-chuck.com/) por prover os seguintes arquivos: "d3.layout.cloud.js", "d3.v2.js", "gline_year.htm", "gline.htm" and "gword.htm".
 
 ---
@@ -102,7 +102,7 @@ Open `gmane_run.py` to run the program. It was implemented a shell user interfac
 
 **Aplication Manager**: is the main part of the program, you can chose Spider, Model, Data Visualization or Exit the program;
 
-1. **Spider**: will prompt how many messages to read and save on the raw database ***spider.sqlite***, to interupt the process just press <CTRL + C> and enter <Y> when prompted;
+1. **Spider**: will prompt how many messages to read and save on the raw database ***spider.sqlite***, to interupt the process just press \<CTRL + C> and enter \<Y> when prompted;
 2. **Model**: automatically creates or update the ***mode_db.sqlite*** database from the raw database;
 3. **Data Visualization**: enters in the **Visualization Model** menu:
     1. **Basic**: prompt how many organizations and senders to show on shell (must be and integer);
@@ -118,5 +118,5 @@ If "0" is entered it will go back to the previous menu or exit the program.
 - All subprocess files are in the `files` folder;
 - All the created files will be stored in the `files` folder (including database and javascript files);
 - All htm files are in the `files` folder, you can manually open them after creating the necessary javascript files;
-- After every step of the program it will prompt if you wish to continue to the next logical step, enter <Y> if you wish to continue or <N> to go back to the menu;
+- After every step of the program it will prompt if you wish to continue to the next logical step, enter \<Y> if you wish to continue or \<N> to go back to the menu;
 - All credits goes to [dr-chuck](https://dr-chuck.com/) for providing the following files: "d3.layout.cloud.js", "d3.v2.js", "gline_year.htm", "gline.htm" and "gword.htm".
