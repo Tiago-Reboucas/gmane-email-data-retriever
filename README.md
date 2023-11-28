@@ -101,15 +101,16 @@ The program is subdivided in three major subprocesses: Spider, Model and Data Vi
 Open `gmane_run.py` to run the program. It was implemented a shell user interface, all options are explained bellow.
 
 **Aplication Manager**: is the main part of the program, you can chose Spider, Model, Data Visualization or Exit the program;
-    1. **Spider**: will prompt how many messages to read and save on the raw database ***spider.sqlite***, to interupt the process just press <CTRL + C> and enter <Y> when prompted;
-    2. **Model**: automatically creates or update the ***mode_db.sqlite*** database from the raw database;
-    3. **Data Visualization**: enters in the **Visualization Model** menu:
-        1. **Basic**: prompt how many organizations and senders to show on shell (must be and integer);
-        2. **Word**: prompt how many words to show in the browser (integer), after creating the data asks if you want to visualize the data;
-        3. **Line**: prompt how many organizations to show in the browser (integer), after creating the data asks if you want to visualize the data;
-        4. **Year**: prompt how many organizations to show in the browser (integer), after creating the data asks if you want to visualize the data;
-        5. **All Above**: run all the above subprocesses in sequence;
-        9. **Visualize Data**: enters in the **Visualization Manager** menu, where you can chose from all the above visualization model to be shown.
+
+1. **Spider**: will prompt how many messages to read and save on the raw database ***spider.sqlite***, to interupt the process just press <CTRL + C> and enter <Y> when prompted;
+2. **Model**: automatically creates or update the ***mode_db.sqlite*** database from the raw database;
+3. **Data Visualization**: enters in the **Visualization Model** menu:
+    1. **Basic**: prompt how many organizations and senders to show on shell (must be and integer);
+    2. **Word**: prompt how many words to show in the browser (integer), after creating the data asks if you want to visualize the data;
+    3. **Line**: prompt how many organizations to show in the browser (integer), after creating the data asks if you want to visualize the data;
+    4. **Year**: prompt how many organizations to show in the browser (integer), after creating the data asks if you want to visualize the data;
+    5. **All Above**: run all the above subprocesses in sequence;
+    9. **Visualize Data**: enters in the **Visualization Manager** menu, where you can chose from all the above visualization model to be shown.
 
 If "0" is entered it will go back to the previous menu or exit the program.
 
